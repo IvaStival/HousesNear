@@ -1,7 +1,13 @@
 # HousesNear
 Aprendendo Webscraping, DataScience, Deploy e gerenciamentod e projetos usando Git.
 
-* 1. Sobre(#sobre)
+* 1. [Sobre](#sobre)
+* 2. [Setup e Requisitos](#setup_e_requisitos)
+* 3. [Dados](#dados)
+* 4. [WebScraping](#webscraping)
+* 5. [Treinamento](#treinamento)
+* 6. [Deploy](#deploy)
+* 7. [Conclusão](#conclusao)
 
 ## Sobre
 Esse projeto tem como principal objetivo o aprendizado e fixação de todos os items acima.
@@ -37,4 +43,13 @@ E ferramentas:
 * PyCharm
 * Anaconda
 
+## Dados
+
+## WebScraping
+
+## Treinamento
+
+## Deploy
+
+## Conclusão
 
