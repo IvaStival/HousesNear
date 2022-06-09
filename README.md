@@ -44,19 +44,18 @@ E ferramentas:
 * Anaconda
 
 ## WebScraping
-Usaremos webscraping para aquisição dos dados. Eles serão todos adquiridos através do site de imóvies Viva Real:
+Usaremos selenium para fazer webscraping dos dados e serão todos adquiridos através do site de imóvies Viva Real:
 
 - [Viva Real](https://www.vivareal.com.br/venda/sp/sao-paulo/apartamento_residencial/)
 
-Todos os dados serão da cidade de São Paulo e todos os imóveis estão a venda.
-Anuncios serão desconsiderados e todas as informações que estão presentes no anuncio serão adquiridas.
+Todos os dados serão da cidade de São Paulo e vamos considerar somente imóveis que estão a venda. 
+Todas as informações que estão presentes no anuncio serão adquiridas como preço, tamanho, númeto de quartos, número de banheiros, endereço, se tem elevador, .... .
 
 ## Dados
 Após conseguirmos os dados iremos armazena los usando um serviço cloud.
-A idéia de armazenar os dados na cloud é para facilitar o acesso de todos que estão trabalhando no projeto.
-Os dados serão armazenados em algumas tabelas dentro do Amazon AWS S3. Por que em mais de uma tabela?
-Isso por que iremos criar uma sequencia de tabelas onde cada uma terá dados cada vez mais limpos e prontos para serem utilizados. 
-Serão 4 tabelas, mas podemos dizer também que serão 4 camadas:
+A idéia de usar um serviço na cloud é para facilitar o acesso de todos que estão trabalhando no projeto.
+Serão criadas tabelas dentro do Amazon AWS S3 onde cada uma terá dados cada vez mais limpos e prontos para serem utilizados. 
+Serão 4 tabelas ou 4 camadas:
 
 * Camada RAW
 * Camada BRONZE
