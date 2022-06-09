@@ -1,6 +1,8 @@
 # HousesNear
 Aprendendo Webscraping, DataScience, Deploy e gerenciamentod e projetos usando Git.
 
+* 1. Sobre(#sobre)
+
 ## Sobre
 Esse projeto tem como principal objetivo o aprendizado e fixação de todos os items acima.
 Sobre o projeto em sí, em um primeiro momento vamos usar dados adquiridos por meio de Webscraping de casas, como tamanho, número de quartos, vagas de garagem, preço, ...
