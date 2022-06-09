@@ -3,8 +3,8 @@ Aprendendo Webscraping, DataScience, Deploy e gerenciamentod e projetos.
 
 - [Sobre](#sobre)
 - [Setup e Requisitos](#setup-e-requisitos)
-- [Dados](#dados)
 - [WebScraping](#webscraping)
+- [Dados](#dados)
 - [Treinamento](#treinamento)
 - [Deploy](#deploy)
 - [Conclusão](#conclusao)
