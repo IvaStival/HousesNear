@@ -11,13 +11,13 @@ Aprendendo Webscraping, DataScience, Deploy e gerenciamentod e projetos.
 - [Conclusão](#conclusao)
 
 ## Sobre
-Esse projeto tem como principal objetivo o aprendizado e fixação de todos os items acima.
-Sobre o projeto em sí, em um primeiro momento vamos usar dados adquiridos por meio de Webscraping de casas, como tamanho, número de quartos, vagas de garagem, preço, ...
-Todos esses dados a principio serão armazenados no AWS S3, para um acesso mais facil por todos que participarão do projeto.
-Com esses dados vamos treinar um modelo de machine learning para tentar prever e preço de casa com base em suas caracteristicas.
+Esse projeto tem como principal objetivo o aprendizado e fixação de todos os items acima.\n
+Sobre o projeto em sí, em um primeiro momento vamos usar dados adquiridos por meio de Webscraping de casas, como tamanho, número de quartos, vagas de garagem, preço, ... \n
+Todos esses dados a principio serão armazenados localmente. Futuramente usaremos o AWS S3 para um acesso mais fácil.
+Com esses dados vamos treinar um modelo de machine learning para tentar prever e preço de casas com base em suas características. \n
 Por fim é feito o deploy do modelo em uma página web bem como em um aplicativo para celular.
 
-Uma segunda parte do projeto é usar a API do Google Maps para que com base em um endereço escolhido pelo usuário juntamente com um raio de interesse consigamos mostrar todos os comercios ou pontos de interesse dentro desse raio.
+Uma segunda parte do projeto é usar a API do Google Maps para que com base em um endereço escolhido pelo usuário juntamente com um raio de interesse consigamos mostrar todos os comércios ou pontos de interesse dentro desse raio.
 
 ## Setup e Requisitos
 Linguagens:
