@@ -13,7 +13,7 @@ Aprendendo Webscraping, DataScience, Deploy e gerenciamentod e projetos.
 ## Sobre
 Esse projeto tem como principal objetivo o aprendizado e fixação de todos os items acima.<br />
 Sobre o projeto em sí, em um primeiro momento vamos usar dados adquiridos por meio de Webscraping de casas, como tamanho, número de quartos, vagas de garagem, preço, ... <br />
-Todos esses dados a principio serão armazenados localmente. Futuramente usaremos o AWS S3 para um acesso mais fácil.
+Todos esses dados a principio serão armazenados localmente. Futuramente usaremos o AWS S3 para um acesso mais fácil e também para centralizar o acesso.
 Com esses dados vamos treinar um modelo de machine learning para tentar prever e preço de casas com base em suas características. <br />
 Por fim é feito o deploy do modelo em uma página web bem como em um aplicativo para celular.
 
@@ -50,11 +50,11 @@ Usaremos selenium para fazer webscraping dos dados e serão todos adquiridos atr
 - [Viva Real](https://www.vivareal.com.br/venda/sp/sao-paulo/apartamento_residencial/)
 
 Todos os dados serão da cidade de São Paulo e vamos considerar somente imóveis que estão a venda.<br />
-Todas as informações que estão presentes no anuncio serão adquiridas como preço, tamanho, númeto de quartos, número de banheiros, endereço, se tem elevador, .... .
+Todas as informações que estão presentes no anuncio serão adquiridas como preço, tamanho, número de quartos, número de banheiros, endereço, se tem elevador, .... .
 
 ## Dados
-Após conseguirmos os dados iremos armazena los usando um serviço cloud.<br />
-A idéia de usar um serviço na cloud é para facilitar o acesso de todos que estão trabalhando no projeto.<br />
+Após conseguirmos os dados iremos armazena los localmente e futuramente migrar os dados para uma plataforma cloud.<br />
+A idéia de usar um serviço em cloud é para facilitar e centralizar o acesso.<br />
 Serão criadas tabelas dentro do Amazon AWS S3 onde cada uma terá dados cada vez mais limpos e prontos para serem utilizados.<br />
 Serão 4 tabelas ou 4 camadas:
 
