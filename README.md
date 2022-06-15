@@ -5,6 +5,7 @@ Aprendendo Webscraping, DataScience, Deploy e gerenciamentod e projetos.
 - [Setup e Requisitos](#setup-e-requisitos)
 - [WebScraping](#webscraping)
 - [Dados](#dados)
+- [PEP8](#pep8)
 - [Treinamento](#treinamento)
 - [Deploy](#deploy)
 - [Conclusão](#conclusao)
@@ -64,7 +65,7 @@ Serão 4 tabelas ou 4 camadas:
 
 Iniciando pela camada RAW onde os dados estão da maneira que foram adquiridos via webscraping até a camada GOLD onde eles estão prontos para serem consumidos.
 
-## PEP 8
+## PEP8
 Vamos seguir o padrão PEP 8 para boas práticas de escrita de código:
 - https://peps.python.org/pep-0008/
 
