@@ -11,10 +11,10 @@ Aprendendo Webscraping, DataScience, Deploy e gerenciamentod e projetos.
 - [Conclusão](#conclusao)
 
 ## Sobre
-Esse projeto tem como principal objetivo o aprendizado e fixação de todos os items acima.\n
-Sobre o projeto em sí, em um primeiro momento vamos usar dados adquiridos por meio de Webscraping de casas, como tamanho, número de quartos, vagas de garagem, preço, ... \n
+Esse projeto tem como principal objetivo o aprendizado e fixação de todos os items acima.<br />
+Sobre o projeto em sí, em um primeiro momento vamos usar dados adquiridos por meio de Webscraping de casas, como tamanho, número de quartos, vagas de garagem, preço, ... <br />
 Todos esses dados a principio serão armazenados localmente. Futuramente usaremos o AWS S3 para um acesso mais fácil.
-Com esses dados vamos treinar um modelo de machine learning para tentar prever e preço de casas com base em suas características. \n
+Com esses dados vamos treinar um modelo de machine learning para tentar prever e preço de casas com base em suas características. <br />
 Por fim é feito o deploy do modelo em uma página web bem como em um aplicativo para celular.
 
 Uma segunda parte do projeto é usar a API do Google Maps para que com base em um endereço escolhido pelo usuário juntamente com um raio de interesse consigamos mostrar todos os comércios ou pontos de interesse dentro desse raio.
@@ -49,13 +49,13 @@ Usaremos selenium para fazer webscraping dos dados e serão todos adquiridos atr
 
 - [Viva Real](https://www.vivareal.com.br/venda/sp/sao-paulo/apartamento_residencial/)
 
-Todos os dados serão da cidade de São Paulo e vamos considerar somente imóveis que estão a venda.
+Todos os dados serão da cidade de São Paulo e vamos considerar somente imóveis que estão a venda.<br />
 Todas as informações que estão presentes no anuncio serão adquiridas como preço, tamanho, númeto de quartos, número de banheiros, endereço, se tem elevador, .... .
 
 ## Dados
-Após conseguirmos os dados iremos armazena los usando um serviço cloud.
-A idéia de usar um serviço na cloud é para facilitar o acesso de todos que estão trabalhando no projeto.
-Serão criadas tabelas dentro do Amazon AWS S3 onde cada uma terá dados cada vez mais limpos e prontos para serem utilizados.
+Após conseguirmos os dados iremos armazena los usando um serviço cloud.<br />
+A idéia de usar um serviço na cloud é para facilitar o acesso de todos que estão trabalhando no projeto.<br />
+Serão criadas tabelas dentro do Amazon AWS S3 onde cada uma terá dados cada vez mais limpos e prontos para serem utilizados.<br />
 Serão 4 tabelas ou 4 camadas:
 
 * Camada RAW
