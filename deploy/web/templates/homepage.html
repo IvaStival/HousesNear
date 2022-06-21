@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-	<meta charset="UTF-8">
-	<title>Houses Predict</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap">
-	<link rel="stylesheet" href="aplication.css">
-</head>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<strong><title>Houses Predict</title></strong>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap">
+		<link rel="stylesheet" href="aplication.css">
+	</head>
 
-<body>
-	<h1>Houses Predict</h1>
-	<p>Com algumas informações você pode predizer o preço de um imóvel localizado na cidade de São Paulo.</p>
+	<body>
+		<main>
+			<div class = "logo">
+				<img src="imagens/home_house_500.png" alt="Logo da Casa">
+			</div>
+			<h1 class = "titulo"><strong>Houses Predict</strong></h1>
+			<p><h2 class = "texto">Com algumas informações você pode predizer
+								   o preço de um imóvel localizado na cidade de São Paulo.</h2></p>
+			<hr>
+			<p><h3>Quais as características do imóvel?</h3></p>
+			<div class = "house">
+				<form class = "form" method = "post">
+					<div class = "field">
+						<label for = "tam"> Tamanho   (m²):</label>
+						<input type="text" id="tam" name="tam" placeholder="Digite o tamanho*" required>
+					</div>
+					<div class = "field">
+						<label for = "qua"> Quartos   (un):</label>
+						<input type="text" id="qua" name="qua" placeholder="Digite número de quartos">
+					</div>
+					<div class = "field">
+						<label for = "ban"> Banheiros   (un):</label>
+						<input type="text" id="ban" name="ban" placeholder="Digite número de banheiros">
+					</div>
+					<div class = "field">
+						<label for = "gar"> Garagem   (un):</label>
+						<input type="text" id="gar" name="gar" placeholder="Digite número de Vagas">
+					</div>
+					<div class = "field">
+						<label>Faciidades:</label>
+						<label for = "fac">Pesquisa:</label>
+						<input type="text" id="fac" name="fac" placeholder="Churrasqueira, Pscina, Academia, etc.">
+					</div>
+				</form>
 
-	<h4>Quais as características do imóvel?</h4>
-
-</body>
+			</div>
+		</main>
+	</body>
 </html>
