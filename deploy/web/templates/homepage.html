@@ -2,9 +2,10 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
+		<meta name =  "viewpoint" content = "width=devide-width, initial-scale = 1.0">
 		<strong><title>Houses Predict</title></strong>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap">
-		<link rel="stylesheet" href="aplication.css">
+		<link rel="stylesheet" type= "text/css" href="aplication.css">
 	</head>
 
 	<body>
@@ -17,31 +18,47 @@
 								   o preço de um imóvel localizado na cidade de São Paulo.</h2></p>
 			<hr>
 			<p><h3>Quais as características do imóvel?</h3></p>
-			<div class = "house">
-				<form class = "form" method = "post">
-					<div class = "field">
-						<label for = "tam"> Tamanho   (m²):</label>
-						<input type="text" id="tam" name="tam" placeholder="Digite o tamanho*" required>
-					</div>
-					<div class = "field">
-						<label for = "qua"> Quartos   (un):</label>
-						<input type="text" id="qua" name="qua" placeholder="Digite número de quartos">
-					</div>
-					<div class = "field">
-						<label for = "ban"> Banheiros   (un):</label>
-						<input type="text" id="ban" name="ban" placeholder="Digite número de banheiros">
-					</div>
-					<div class = "field">
-						<label for = "gar"> Garagem   (un):</label>
-						<input type="text" id="gar" name="gar" placeholder="Digite número de Vagas">
-					</div>
-					<div class = "field">
-						<label>Faciidades:</label>
-						<label for = "fac">Pesquisa:</label>
-						<input type="text" id="fac" name="fac" placeholder="Churrasqueira, Pscina, Academia, etc.">
-					</div>
-				</form>
+			<p><br></p>
+			<div class = "corpo">
+				<div class = "botão">
+					<button class = "b1" type = "submit">Procurar Preços</button>
+					<p><button class = "b2" type = "submit">Pontos Próximos</button></p>
+				</div>
+				<div class = "house">
+					<form class = "form" method = "post">
+						<div class = "campo">
+							<label for = "tam"><strong>Tamanho   (m²):</strong></label>
+							<input type="text" id="tam" name="tam" placeholder="Digite o tamanho*" required>
+						</div>
+						<div class = "campo">
+							<label for = "qua"> <strong>Quartos   (un):</strong></label>
+							<input type="text" id="qua" name="qua" placeholder="Digite número de quartos">
+						</div>
+						<div class = "campo">
+							<label for = "ban"><strong>Banheiros   (un):</strong></label>
+							<input type="text" id="ban" name="ban" placeholder="Digite número de banheiros">
+						</div>
+						<div class = "campo">
+							<label for = "gar"><strong> Garagem   (un):</strong></label>
+							<input type="text" id="gar" name="gar" placeholder="Digite número de Vagas">
+						</div>
 
+						<div class = "check">
+							<label><strong>Faciidades:</strong></label>
+							<br>
+							<input type = "checkbox" id = "sal" name = "sal"  value = "sal">
+							<label for = "sal"> Salão de Festas</label>
+							<input type = "checkbox" id = "chu" name = "chu"  value = "chu">
+							<label for = "chu"> Churrasqueira</label>
+							<input type = "checkbox" id = "aca" name = "aca"  value = "aca">
+							<label for = "aca"> Academia</label>
+							<input type = "checkbox" id = "pis" name = "pis"  value = "pis">
+							<label for = "pis"> Pisina</label>
+
+						</div>
+						.
+					</form>
+				</div>
 			</div>
 		</main>
 	</body>

@@ -4,7 +4,7 @@ body{
     margin: auto;
     background: url(imagens/bg.jpg) center;
     font-family: 'Lato';
-    line-height: 1.5;
+    line-height: 1.1;
     color: #ffffff;
  }
 
@@ -15,63 +15,51 @@ main{
     border-radius: 10px;
 }
 
-.titulo, .texto, .logo{
+.texto, .logo{
     margin: 0;
     text-align: center;
 }
 
-.form{
-    widht: 400px;
-    padding: 30px;
-    border: 1px, solid #ccc;
-}
-
-.form p{
-    widht: 100%;
-    font-size: 1.5em;
-}
-
-.field{
-    width: 100%;
-    margin: 15px 0;
-}
-.field label,
-.field span{
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea{
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    outline: none;
-}
-input#nao{
-    margin-left: 30px;
-}
-textarea{
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
-}
-input[type=submit]{
-    display: block;
-    background-color: #ccc;
-    height: 35px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
+.titulo{
+    font-size: 60px;
+    margin: 0;
     text-align: center;
-    border-radius: 15px;
+}
+
+.campo{
+    font-size: 1.5em;
+    margin-left: 30%;
+    margin-bottom: 1em;
+}
+
+.check{
+    font-size: 1.5em;
+    margin-left: 30%;
+    margin-bottom: 1em;
+
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+}
+
+.campo input[type="text"], .campo select {
+    padding: 0.7em;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 1px black;
+}
+
+.campo input:focus, .campo select:focus{
+    background: #936d3d69;
+}
+
+.corpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: top;
 }
