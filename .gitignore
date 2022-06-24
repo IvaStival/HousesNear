@@ -1,3 +1,6 @@
 .DS_Store
 .db
 *.pyc
+*.csv
+*.db
+.ipynb_checkpoints
