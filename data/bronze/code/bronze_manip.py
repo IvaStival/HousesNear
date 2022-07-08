@@ -19,9 +19,6 @@ def save_local(table, db_con):
 
 # %%
 save_local("houses", engine)
-# %%
-df = pd.read_sql("houses", engine)
-# %%
-import os
-os.getcwdb()
+
+
 # %%

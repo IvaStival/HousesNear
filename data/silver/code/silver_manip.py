@@ -55,7 +55,7 @@ df_edited = df_edited.drop("amenities", axis=1)
 address_norm = (df_edited["h_address"].str.lower().str.normalize("NFKD")
                                                 .str.encode("ascii", errors="ignore")
                                                 .str.decode("utf8"))
-df_edited["bairros"] = pd.DataFrame(address_norm)["h_address"].apply(lambda x : re.findall("(^[a-z]+[\s*[a-z]*]*),\s\D|-\s([a-z]+[\s*[a-z]*]*),",x)[0][1])
+df_edited["bairros"] = pd.DataFrame(address_norm)["h_address"].apply(lambda x : re.findall("(^[a-z]+[\s*[a-z]*]*),\s\D|-\s([a-z]+[\s*[a-z]*]*),",x)[0][1].replace(" ", "_"))
 
 ## CITY 
 df_edited["city"] = pd.DataFrame(address_norm)["h_address"].apply(lambda x : re.findall(", ([a-z]+[\s*[a-z]*]*) -",x)[0])

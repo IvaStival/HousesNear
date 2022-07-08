@@ -55,15 +55,14 @@ Todas as informações que estão presentes no anuncio serão adquiridas como pr
 ## Dados
 Após conseguirmos os dados iremos armazena los localmente e futuramente migrar os dados para uma plataforma cloud.<br />
 A idéia de usar um serviço em cloud é para facilitar e centralizar o acesso.<br />
-Serão criadas tabelas dentro do Amazon AWS S3 onde cada uma terá dados cada vez mais limpos e prontos para serem utilizados.<br />
-Serão 4 tabelas ou 4 camadas:
+As bases criadas terão dados cada vez mais limpos e prontos para serem utilizados por qualquer um.<br />
+Serão 3 baes ou 3 camadas:
 
-* Camada RAW
 * Camada BRONZE
 * Camada SILVER
 * Camada GOLD
 
-Iniciando pela camada RAW onde os dados estão da maneira que foram adquiridos via webscraping até a camada GOLD onde eles estão prontos para serem consumidos.
+Iniciando pela camada BRONZE onde os dados estão da maneira que foram adquiridos via webscraping até a camada GOLD onde eles estão prontos para serem consumidos.
 
 ## PEP8
 Vamos seguir o padrão PEP 8 para boas práticas de escrita de código:
